@@ -113,7 +113,6 @@ $("#tour").click(function(){
 
 
 $('.readmore').each(function(){
-  console.log($(this).data())
   $(this).qtip({
     style: { classes: 'readmore-qtip' },
     position: {

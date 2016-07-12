@@ -600,9 +600,13 @@ canvas.knob4 {
 	text-decoration: none;
 }
 
+.carousel-videos {
+	margin: 0 -5px;
+}
+
 .carousel-videos .bx-wrapper .bx-viewport {
-	//margin: 0 -15px;
-	padding: 0 15px;
+	/*margin: 0 -15px;*/
+	padding: 0 5px;
 }
 
 .carousel-videos .row {
@@ -958,4 +962,25 @@ canvas.knob4 {
 
 .page-footer {
 	background: #2a2a2a;
+}
+
+.publications .portlet-body {
+	margin: -5px -20px -15px;
+}
+
+.publications .nav.nav-stacked>li>a {
+	padding: 9px 15px;
+}
+
+.mt-card-name,
+.mt-element-card .mt-card-item .mt-card-content .mt-card-social > ul > li > a {
+	color: white;
+}
+
+.mt-element-card {
+	margin-top: 30px;
+}
+
+.publications .nav.nav-stacked>li>a>.badge {
+	margin-top: 0;
 }
